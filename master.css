@@ -1,0 +1,593 @@
+/* color: rgb(F0C38E); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#divPortada {
+    background-color: #212121;
+    color:whitesmoke; 
+    height: 100vh;    
+}
+
+/* Estilos NAVBAR*/
+
+#logo {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;    
+}
+
+#navbarNavAltMarkup {
+    justify-content: right;   
+    padding-right:10px; 
+}
+
+.navbar-brand {
+    color: #F0C38E;
+    padding-left: 0;  
+    font-weight: 300;
+    font-size: 20px;  
+}
+
+.navbar-brand:hover {
+    color: whitesmoke;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-weight: 200;       
+}
+
+.nav-link:hover {
+    color: #F0C38E;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 45px; 
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245,245,245, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.custom-toggler.navbar-toggler {
+    border-color: whitesmoke;
+  } 
+
+/* Estilos Portada*/
+.divFoto {
+    text-align: center;
+}
+
+.foto {
+    height: 100%;
+    width: 100%; 
+    max-width: 350px;
+    max-height: 350px;   
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .foto {
+      width: 250px;
+      height: 250px;
+    }
+}
+
+#portada {
+    padding: 0 10% 50px 10%;
+    margin: 0;    
+}
+
+#titulo {
+    padding-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    font-family: Helvetica;
+    font-size: 75px;
+    font-weight: bolder;
+    
+}
+
+@media screen and (max-width: 991px) {
+    .titulo {
+      font-size: 60px;
+      text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .titulo {
+      font-size: 45px;
+      text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .titulo {
+      font-size: 35px;
+      text-align: center;
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+.icon-github {
+    background-image: url(/images/github.svg);
+}
+
+.icon-github:hover,
+.icon-github:focus {
+    background-image: url(/images/githubHover.svg);
+}
+
+.icon-linkdin {
+    background-image: url(/images/linkedin.svg);
+}
+
+.icon-linkdin:hover,
+.icon-linkdin:focus {
+    background-image: url(/images/linkedinHover.svg);
+}
+
+.col-12{    
+    position: absolute;
+    bottom: 0;  
+     
+}
+.illustracion{
+    height: 250px;
+    text-align: center;
+}
+
+@media screen and (max-width: 966px) {
+    .illustracion {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .illustracion {
+        height: 150px;
+    }
+}
+
+/* Estilos SobreMi*/
+
+.sobreMi {
+    width: 100%;
+    height: 100%;
+    background-color: #F0C38E;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    border-bottom: 10px solid #212121;
+}
+
+@media screen and (max-width: 400px) {
+    .sobreMi {
+        padding: 50px 20px 50px 20px;
+    }
+}
+
+.sobreMi h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sobreMi p {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 40px;
+    line-height: normal;
+}
+
+@media screen and (max-width: 400px) {
+    .sobreMi p {
+        font-size: 25px;
+    }
+}
+
+.cards{
+    padding-top: 5%;
+    text-align: center; 
+      
+}
+
+.card {
+    margin: auto;
+    border-color: #212121;
+    border-width: 4px;   
+    border-radius: 10px; 
+    height: 700px;    
+}
+
+@media screen and (max-width: 966px) {
+    .card {
+        max-width: 350px;
+    }
+}
+
+.card-body {
+    padding: 10%;      
+}
+
+.icon-front {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(/images/iconFrontend.svg);    
+
+}
+
+.icon-designer {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(/images/iconDesigner.svg);
+}
+
+.card .titulo {
+    font-family: 'Inter', sans-serif;
+    padding: 10px 0 10px 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card .texto {
+    font-size: 21px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card .herramientas {
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.card .subtitulo {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.row .col-sm-12 {
+    margin-top: 20px;
+}
+
+
+/* Estilos Proyectos*/
+
+.Proyectos {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+#tituloProyectos {
+    margin: 5% 25% 100px 25%;
+    text-align: center; 
+   
+}
+
+.icon-proyectos {  
+    
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    background-image: url(/images/iconProyectos.svg);  
+    margin-bottom: 20px;   
+
+}
+
+#tituloProyectos h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.proyectos {     
+    display: block;   
+    background-color: white;
+    width: 55%;
+    height: 100%;    
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.proyectos .row {
+    height: 100%;  
+    border: 4px solid #212121;    
+    border-radius: 10px;  
+}
+
+.img-fluid {
+    width: 100%;
+    max-height: 350px;
+}
+
+.proyectos .col-lg-8 {
+      
+    padding: 0;
+    border-radius: 5px 0 0 5px;   
+}
+
+.proyectos .col-lg-4 {    
+    background-color: #212121;     
+    padding: 25px;  
+    text-align: center; 
+
+}
+
+
+.proyectos .col-xxl-8 {
+      
+    padding: 0;
+    border-radius: 5px 0 0 5px;   
+}
+
+.proyectos .col-xxl-4 {    
+    background-color: #212121;     
+    padding: 25px;  
+    text-align: center; 
+
+}
+
+
+
+
+
+.proyectos h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: whitesmoke;    
+}
+
+.proyectos p {
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 5px 0 5px 0;    
+
+}
+
+.icon-figma {      
+    display: inline-block;
+    width: 78px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(/images/figma.png);      
+    margin: 0 50px 5px 50px;
+
+}
+
+.icon-photoshop {     
+    display: inline-block;
+    width: 109px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(/images/photoshop.png);        
+    margin: 0 50px 5px 50px;
+
+}
+.icon-illustrator {      
+    display: inline-block;
+    width: 100px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(/images/illustrator.png);      
+    margin: 0 50px 5px 50px;
+}
+
+.icon-html {      
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(/images/html.png);      
+    margin: 0 50px 5px 50px;
+
+}
+
+.icon-css {     
+    display: inline-block;
+    width: 66px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(/images/css.png);        
+    margin: 0 50px 5px 50px;
+
+}
+.icon-bootstrap {      
+    display: inline-block;
+    width: 102px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(/images/bootstrap.png);      
+    margin: 0 50px 5px 50px;
+}
+
+.divBoton {
+    margin-top: 30px;
+}
+
+#bverProyecto {
+    border-width: 2px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    
+}
+
+#bverProyecto:hover {
+    color: #212121;
+}
+
+/* Estilos Contacto*/
+
+
+.Contacto {
+    width: 100%;
+    height: 1000px;
+    background-color: #212121;
+    color: whitesmoke;
+    padding-top: 10px;
+    border-top: 10px solid #F0C38E;
+	
+    
+}
+
+
+#tituloContacto {
+    margin: 3% 25% 3% 25%;
+    text-align: center; 
+   
+}
+
+.icon-contacto {  
+    
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-image: url(/images/iconContacto.svg);  
+    margin-bottom: 20px;   
+
+}
+
+#tituloContacto h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.formulario {
+    width: 55%;
+    max-width: 700px;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    padding-bottom: 10px;
+    background-color: #F0C38E;
+    border-radius: 10px;
+    color: #212121;
+       
+}
+
+.formulario label {
+    font-size: 18;
+    font-weight: 500;
+    padding: 10px 0 0 0; 
+       
+}
+
+#bEnviar {
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #212121;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px; 
+    padding: 5px 35px 5px 35px; 
+     
+}
+
+#bEnviar:hover {
+    color:#F0C38E;
+    background-color: #212121;
+}
+
+.form-control {
+    border-color: white;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px 0 25px 0;
+}
+
+.footer .logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 0px;    
+}
+
+.footer a {
+    text-decoration:none;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;    
+    color: whitesmoke;
+}
+
+.footer span {
+    margin: 10px 15px 0 15px;
+}
+
+.icon-behace {
+    background-image: url(/images/behace.svg);
+}
+
+.icon-behace:hover,
+.icon-behace:focus {
+    background-image: url(/images/behaceHover.svg);
+}
+
+.icon-email {
+    background-image: url(/images/email.svg);
+}
+
+.icon-email:hover,
+.icon-email:focus {
+    background-image: url(/images/emailHover.svg);
+}
+
+.icon-instagram {
+    background-image: url(/images/instagram.svg);
+}
+
+.icon-instrgram:hover,
+.icon-instagram:focus {
+    background-image: url(/images/instagramHover.svg);
+}
+
+
+
