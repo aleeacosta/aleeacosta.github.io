@@ -319,6 +319,12 @@ body {
     font-weight: 800;
 }
 
+@media screen and (max-width: 450px) {
+    #tituloProyectos h2 {
+        font-size: 25px;
+    }
+}
+
 .proyectos {     
     display: block;   
     background-color: white;
@@ -352,7 +358,6 @@ body {
 
 }
 
-
 .proyectos .col-xxl-8 {
       
     padding: 0;
@@ -365,10 +370,6 @@ body {
     text-align: center; 
 
 }
-
-
-
-
 
 .proyectos h5 {
     font-size: 18px;
@@ -494,6 +495,12 @@ body {
     font-weight: 800;
 }
 
+@media screen and (max-width: 450px) {
+    #tituloContacto h2 {
+        font-size: 25px;
+    }
+}
+
 .formulario {
     width: 55%;
     max-width: 700px;
@@ -505,6 +512,12 @@ body {
     border-radius: 10px;
     color: #212121;
        
+}
+
+@media screen and (max-width: 450px) {
+    .formulario {
+        width: 80%
+    }
 }
 
 .formulario label {
@@ -584,7 +597,7 @@ body {
     background-image: url(/images/instagram.svg);
 }
 
-.icon-instrgram:hover,
+.icon-instagram:hover,
 .icon-instagram:focus {
     background-image: url(/images/instagramHover.svg);
 }
