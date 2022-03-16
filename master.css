@@ -24,6 +24,13 @@ body {
     margin-right: 15px;
 }
 
+@media screen and (max-width: 400px) {
+    #logo {
+        height: 40px;
+        width: 40px;
+    }
+}
+
 .navbar {
     padding-top: 30px;
     padding-bottom: 5%;
@@ -31,9 +38,27 @@ body {
     padding-right: 10%;    
 }
 
+@media screen and (max-width: 450px) {
+    .navbar {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
 #navbarNavAltMarkup {
     justify-content: right;   
     padding-right:10px; 
+    
+}
+
+@media screen and (max-width: 991px) {
+    #navbarNavAltMarkup {
+        background-color:#212121;
+        border: 1px solid #2c2c2c;        
+        padding: 10px 30px 10px 10px;
+        text-align: right;
+        
+    }
 }
 
 .navbar-brand {
@@ -41,6 +66,12 @@ body {
     padding-left: 0;  
     font-weight: 300;
     font-size: 20px;  
+}
+
+@media screen and (max-width: 461px) {
+    .navbar-brand {
+        font-size: 16px; 
+    }
 }
 
 .navbar-brand:hover {
@@ -68,6 +99,10 @@ body {
     border-color: whitesmoke;
   } 
 
+
+
+  
+
 /* Estilos Portada*/
 .divFoto {
     text-align: center;
@@ -82,16 +117,38 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .foto {
       width: 250px;
       height: 250px;
     }
 }
 
+@media screen and (max-width: 400px) {
+    .foto {
+      width: 200px;
+      height: 200px;
+    }
+}
+
 #portada {
     padding: 0 10% 50px 10%;
-    margin: 0;    
+    margin: 0; 
+    
+    padding-top: 120px; /*   CAMBIAR */
+    z-index: -1;
+}
+
+@media screen and (min-width: 991px) {
+    #portada {
+        padding: 180px 10% 20px 10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #portada {
+        padding: 100px 4% 20px 4%;
+    }
 }
 
 #titulo {
@@ -110,21 +167,28 @@ body {
 
 @media screen and (max-width: 991px) {
     .titulo {
-      font-size: 60px;
+      font-size: 55px;
       text-align: center;
     }
 }
 
 @media screen and (max-width: 650px) {
     .titulo {
-      font-size: 45px;
+      font-size: 50px;
       text-align: center;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 556px) {
     .titulo {
-      font-size: 35px;
+        font-size: 45px;
+        text-align: center;
+      }
+}
+
+@media screen and (max-width: 380px) {
+    .titulo {
+      font-size: 30px;
       text-align: center;
     }
 }
@@ -170,7 +234,19 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 735px) {
+    .illustracion {
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .illustracion {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .illustracion {
         height: 150px;
     }
@@ -190,7 +266,7 @@ body {
     border-bottom: 10px solid #212121;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .sobreMi {
         padding: 50px 20px 50px 20px;
     }
@@ -224,13 +300,20 @@ body {
     margin: auto;
     border-color: #212121;
     border-width: 4px;   
-    border-radius: 10px; 
+    border-radius: 10px;
+    width: 25rem; 
     height: 700px;    
 }
 
 @media screen and (max-width: 966px) {
     .card {
         max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        width: 320px;
     }
 }
 
@@ -297,10 +380,21 @@ body {
     margin-bottom: 100px;
 }
 
+@media screen and (max-width: 450px) {
+    .Proyectos {
+        margin-bottom: 10%;       
+    }
+}
+
 #tituloProyectos {
-    margin: 5% 25% 100px 25%;
-    text-align: center; 
-   
+    margin: 5% 25% 5% 25%;
+    text-align: center;    
+}
+
+@media screen and (max-width: 450px) {
+    #tituloProyectos {
+        margin: 10%;        
+    }
 }
 
 .icon-proyectos {  
@@ -321,7 +415,7 @@ body {
 
 @media screen and (max-width: 450px) {
     #tituloProyectos h2 {
-        font-size: 25px;
+        font-size: 30px;        
     }
 }
 
@@ -332,6 +426,12 @@ body {
     height: 100%;    
     margin: auto;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .proyectos {
+        width: 70%;        
+    }
 }
 
 .proyectos .row {
@@ -467,9 +567,7 @@ body {
     background-color: #212121;
     color: whitesmoke;
     padding-top: 10px;
-    border-top: 10px solid #F0C38E;
-	
-    
+    border-top: 10px solid #F0C38E;    
 }
 
 
@@ -497,7 +595,8 @@ body {
 
 @media screen and (max-width: 450px) {
     #tituloContacto h2 {
-        font-size: 25px;
+        font-size: 30px;
+        margin-bottom: 25px;
     }
 }
 
