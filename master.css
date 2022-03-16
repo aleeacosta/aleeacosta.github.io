@@ -133,9 +133,8 @@ body {
 
 #portada {
     padding: 0 10% 50px 10%;
-    margin: 0; 
-    
-    padding-top: 120px; /*   CAMBIAR */
+    margin: 0;     
+    padding-top: 120px; 
     z-index: -1;
 }
 
