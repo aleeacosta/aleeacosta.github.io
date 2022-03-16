@@ -16,6 +16,12 @@ body {
     min-height: -webkit-fill-available;  
 }
 
+@media screen and (max-width: 420px) {
+    #divPortada {
+        height: 100%;         
+    }
+}
+
 /* Estilos NAVBAR*/
 
 #logo {
@@ -229,7 +235,7 @@ body {
 .illustracion{
     height: 250px;
     text-align: center;
-    vertical-align: bottom;
+    
 }
 
 @media screen and (max-width: 1546px) {
