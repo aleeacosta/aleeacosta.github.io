@@ -56,8 +56,7 @@ body {
         background-color:#212121;
         border: 1px solid #2c2c2c;        
         padding: 10px 30px 10px 10px;
-        text-align: right;
-        
+        text-align: right;        
     }
 }
 
@@ -98,9 +97,6 @@ body {
 .custom-toggler.navbar-toggler {
     border-color: whitesmoke;
   } 
-
-
-
   
 
 /* Estilos Portada*/
@@ -164,6 +160,12 @@ body {
     
 }
 
+@media screen and (max-width: 1546px) {
+    .titulo {
+      font-size: 65px;      
+    }
+}
+
 @media screen and (max-width: 991px) {
     .titulo {
       font-size: 55px;
@@ -225,6 +227,12 @@ body {
 .illustracion{
     height: 250px;
     text-align: center;
+}
+
+@media screen and (max-width: 1546px) {
+    .illustracion {
+        height: 220px;
+    }
 }
 
 @media screen and (max-width: 966px) {
